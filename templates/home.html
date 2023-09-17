@@ -1,0 +1,97 @@
+{% extends 'layout.html' %}
+{% block title %} Home {% endblock title %}
+{% block content %}
+<div class="hero-image">
+  <img src="{{ url_for('static', filename='hero.jpg') }}" alt="Historical Landmarks" class="img-fluid">
+  <div class="hero-content">
+    <h1 class="hero-title">Discover Historical Landmarks</h1>
+    <p class="hero-description">Explore Iran with an AI assistant!</p>
+    <a href="/predict" class="btn btn-primary btn-lg">Start Exploring</a>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+ <div class="row">
+   <div class="col-md-6">
+     <div class="welcome-message">
+       <h2>Welcome to LocDetect by Ashkan Yaghubi!</h2>
+       <p>Our AI model uses VGG16 for detecting historical sites in Iran. For a comparison with other models and detailed results, visit our blog.</p>
+     </div>
+     <div class="cta">
+       <a href="/blog" class="btn btn-primary btn-lg">Visit our blog</a>
+     </div>
+   </div>
+
+   <div class="col-md-6">
+     <div id="featured-carousel" class="carousel slide">
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="{{ url_for('static', filename='Featured Sites.jpg') }}" alt="Featured Sites" class="d-block w-100">
+           <div class="carousel-caption">
+             <h4>Featured Sites</h4>
+             <p>There are 4 sites and landmark currently available.</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="{{ url_for('static', filename='MiladTower.jpg') }}" alt="Milad Tower" class="d-block w-100">
+           <div class="carousel-caption">
+             <h4>Milad Tower</h4>
+             <p>The tallest tower in Iran.</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="{{ url_for('static', filename='ImamRezaShrine.jpg') }}" alt="Imam Reza Shrine" class="d-block w-100">
+           <div class="carousel-caption">
+             <h4>Imam Reza Holy Shrine</h4>
+             <p>One of the largest and holiest shrines in the Islamic World, located in Mashhad, Iran.</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="{{ url_for('static', filename='Persepolis.jpg') }}" alt="Persepolis" class="d-block w-100">
+           <div class="carousel-caption">
+             <h4>Persepolis</h4>
+             <p>An ancient ceremonial capital of the Achaemenid Empire, one of the most powerful empires in human history</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="{{ url_for('static', filename='Pasargadae.jpg') }}" alt="Pasargadae" class="d-block w-100">
+           <div class="carousel-caption">
+             <h4>Pasargadae</h4>
+             <p>A breathtaking UNESCO World Heritage Site that houses the legendary tomb of Cyrus the Great, the visionary founder of the Achaemenid Empire</p>
+           </div>
+         </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#featured-carousel" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#featured-carousel" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+
+<div class="container">
+  <div class="key-features">
+    <h3>Key Features</h3>
+    <ul>
+      <li>AI-based image classification</li>
+      <li>Easy image uploading</li>
+      <li>Accurate predictions</li>
+      <!-- Add more features here -->
+    </ul>
+  </div>
+
+  <div class="historical-facts mt-5">
+    <h3>Did You Know?</h3>
+    <p>Interesting historical fact or trivia.</p>
+  </div>
+</div>
+
+{% endblock content %}

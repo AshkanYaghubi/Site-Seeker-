@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block title %} Blog {% endblock title %}
+{% block content %}
+
+<div class="container mt-5">
+  <h1 class="text-center mb-5">Blog</h1>
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Introduction</h5>
+          <p class="card-text">With a passion for technology and history, I developed a web application capable of identifying and classifying Iran's historical sites using AI-driven image classification. After testing various models, I selected VGG 16 as the final model.</p>
+          <a href="/blog/post_1" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <img src="{{ url_for('static', filename='blog_image_2.jpg') }}" class="card-img-top" alt="Blog Image">
+        <div class="card-body">
+          <h5 class="card-title">Blog Post 2</h5>
+          <p class="card-text">Vivamus auctor, risus sit amet venenatis venenatis, purus arcu convallis elit, sit amet egestas felis libero a lectus. Nulla nec enim nec mauris rutrum auctor. Pellentesque at ante tortor. Nam tincidunt, ipsum nec pellentesque dictum, ligula sapien ullamcorper justo, nec venenatis metus justo quis tortor.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
