@@ -1,6 +1,6 @@
 # Site Seeker
 
-![Sample](sample.jpg)
+![Sample](https://imageupload.io/ib/BZChSA3jW7FswPC_1694986171.jpg)
 
 Welcome to the Site Seeker! This web application uses a VGG16-based deep learning model to classify historical landmarks in Iran. It's designed to help users identify and learn about these cultural treasures.
 
