@@ -1,8 +1,8 @@
-# Historical Landmark Classifier
+# Site Seeker
 
 ![Sample](sample.jpg)
 
-Welcome to the Historical Landmark Classifier! This web application uses a VGG16-based deep learning model to classify historical landmarks in Iran. It's designed to help users identify and learn about these cultural treasures.
+Welcome to the Site Seeker! This web application uses a VGG16-based deep learning model to classify historical landmarks in Iran. It's designed to help users identify and learn about these cultural treasures.
 
 ## Table of Contents
 
@@ -38,12 +38,12 @@ Before you begin, make sure you have the following installed:
 1. **Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/historical-landmark-classifier.git
+   git clone https://github.com/AshkanYaghubi/Site-Seeker-
 
 
 2. **Navigate to the project directory**:
    ```bash
-   cd historical-landmark-classifier
+   cd Site-Seeker-
 
 3. **Create a virtual environment** (optional but recommended):
    ```bash
