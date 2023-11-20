@@ -87,7 +87,7 @@ Before you begin, make sure you have the following installed:
 ## Contact
 
 - Follow me on [Twitter](https://twitter.com/S_Ashkan_Ya)
-- Visit my [Personal Website](https://www.yourwebsite.com](https://ashkanyaghubi.github.io/)
+- Visit my [Personal Website](https://ashkanyaghubi.github.io/)
 - Contact me on [Telegram](https://t.me/S1AshkanYa)
 
 ## Blog
